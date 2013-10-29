@@ -20,7 +20,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^(pick|reword|edit|squash|fixup|exec|p|r|e|s|f|x)\s*([\d\w]{7})\s(.*)</string>
+			<string>^\W*(pick|reword|edit|squash|fixup|exec|p|r|e|s|f|x)\s([\d\w]{7})\s(.*)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -43,6 +43,12 @@
 			<string>$</string>
 			<key>name</key>
 			<string>meta.rebase.todo</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^.*</string>
+			<key>name</key>
+			<string>invalid.illegal.malformed-rebase-commit</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
