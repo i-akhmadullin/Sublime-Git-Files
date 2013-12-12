@@ -2,6 +2,7 @@ pick 6628822 please rm -rf
  reword 6g9c941 need food
   edit 2e9c951 requesting backup
    fixup 563c121 fml
+    p 4tu47yt88ff823gdas git 1.8.5 rebase -i now respects core.abbrev setting
 fukcdeupcommand 563c121 finally works
    exec 6628822 not works
   squash 2e9c951 works?

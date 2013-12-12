@@ -20,7 +20,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^\W*(pick|reword|edit|squash|fixup|exec|p|r|e|s|f|x)\s([\d\w]{7})\s(.*)</string>
+			<string>^\W*(pick|reword|edit|squash|fixup|exec|p|r|e|s|f|x)\s([\da-zA-Z]{4,})\s(.*)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
